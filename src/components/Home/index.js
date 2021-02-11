@@ -5,8 +5,8 @@ import { withAuthorization, withEmailVerification } from '../Session';
 
 const Home = () => (
   <div>
-    <h1>Welcome to the Home page!</h1>
-    <p>The Home Page is accessible by every signed in user.</p>
+    <h1>Welcome to Your Home Page!</h1>
+    <p>You will soon be able to learn Chinese here!</p>
   </div>
 );
 

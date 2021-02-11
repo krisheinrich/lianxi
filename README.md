@@ -1,41 +1,15 @@
 
-## How to Use React Firestore Boilerplate
+# Lianxi - Chinese Learning App
 
-### Step 1 - Create a New Repo from this Template
- - From this project's GitHub repo page, select 'Use this Template'
- - Fill out the information for the new repo
+## TODO
 
-### Step 2 - Clone the New Repo
- - Once the new GitHub repo has been created, clone the repo to your local machine
+### Admin Dashboard to Populate DB
 
-### Step 3 - Install dependencies
- - Navigate to the directory with your local repo and run `npm i` 
+### Manual Data Entry to Seed DB and Test
 
-### Step 4 - Configure Firebase Project
- - Create a new Firebase project
-    - Enable Google Analytics during creation if desired
- - Enable your preferred sign-in method(s) from the Firebase console (Authetication section)
-    - The Sign-In page contains elements for both password-based and Google-based authentication strategies, and the Account page lets you control which strategies are enabled
-    - Remove any components according to the desired auth strategy for your app
- - Register your project as a Web App to view the project config info
- - (optional) Create your first Firestore collection from the Firebase console (Cloud Firestore section)
+### User Home Page for Managing Lists
 
-### Step 5 - Configure Environment Variables
-- Add a `.env` file to the project root directory declaring the following environment variables using the infomation from the Firebase project config:
-    - `REACT_APP_API_KEY=`
-    - `REACT_APP_AUTH_DOMAIN=`
-    - `REACT_APP_DATABASE_URL=`
-    - `REACT_APP_PROJECT_ID=`
-    - `REACT_APP_STORAGE_BUCKET=`
-    - `REACT_APP_MESSAGING_SENDER_ID=`
-    - `REACT_APP_APP_ID=`
-    - `REACT_APP_CONFIRMATION_EMAIL_REDIRECT=`
-
-### Starting the Development Server
- - Run `npm start` to launch the dev server 
-
-### Building the Project
-- Run `npm build` to create a production build of the project
+### Scraping to Further Populate DB
 
 ----------------
 
